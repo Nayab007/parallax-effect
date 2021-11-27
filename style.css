@@ -71,6 +71,9 @@
     section:nth-child(1) .content a {
         background-image: url(./image/fire.jpg);
     }
+    section:nth-child(2) .content a {
+        background-image: url(./image/ice.png);
+    }
 
     section .content p {
         max-width: 800px;
