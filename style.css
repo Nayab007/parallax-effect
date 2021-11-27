@@ -62,6 +62,9 @@
     section:nth-child(2) .content p {
         background-image: url(./image/ice.png);
     }
+    section:nth-child(3) .content p {
+        background-image: url(./image/sand.jpg);
+    }
 
     section .content p {
         max-width: 800px;
