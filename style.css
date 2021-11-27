@@ -65,6 +65,9 @@
     section:nth-child(3) .content p {
         background-image: url(./image/sand.jpg);
     }
+    section:nth-child(4) .content p {
+        background-image: url(./image/water.jpg);
+    }
 
     section .content p {
         max-width: 800px;
