@@ -64,6 +64,10 @@
         max-width: 800px;
         margin: 0 auto;
         padding: 0 20px;
+        background-clip: text;
+       -webkit-background-clip: text;
+         -webkit-text-fill-color: transparent;
+        background-attachment: fixed;
        
     }
 
