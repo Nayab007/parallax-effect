@@ -24,3 +24,14 @@
         align-items: center;
         padding: 50px 0;
     }
+
+    section .content {
+        text-align: center;
+    }
+
+    section .content h2 {
+        font-size: 24vw;
+        text-transform: uppercase;
+        font-weight: 900;
+        line-height: 1em;
+    }
