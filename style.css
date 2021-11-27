@@ -6,6 +6,7 @@
     font-weight: normal;
     src: local('Glamore Regular'), url('/image/Glamore-lgE7w.woff') format('woff');
     }
+    
 
     *{
         margin: 0;
@@ -35,28 +36,31 @@
         text-transform: uppercase;
         font-weight: 900;
         line-height: 1em;
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
+        background-clip: text;
+       -webkit-background-clip: text;
+         -webkit-text-fill-color: transparent;
         background-attachment: fixed;
+        
     }
-    section:nth-child(1) .content h2 {
+    section:nth-child(1) .content h2 
+    {
         background-image: url(./image/fire.jpg);
     }
     section:nth-child(2) .content h2 {
-        background-image: url(bg1.jpg);
+        background-image: url(./image/ice.jpg);
     }
     section:nth-child(3) .content h2 {
-        background-image: url(bg1.jpg);
+        background-image: url(./image/sand.jpg);
     }
     section:nth-child(4) .content h2 {
-        background-image: url(bg1.jpg);
+        background-image: url(./image/water.jpg);
     }
 
     section .content p {
         max-width: 800px;
         margin: 0 auto;
         padding: 0 20px;
-        font-family: 'Glamore Regular';
+       
     }
 
     section .content a {
