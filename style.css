@@ -7,4 +7,20 @@
     src: local('Glamore Regular'), url('Glamore-lgE7w.woff') format('woff');
     }
 
-    
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        outline: none;
+        font-family: 'Glamore Regular'
+    }
+
+    section {
+        position: relative;
+        width: 100%;
+        min-height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 50px 0;
+    }
