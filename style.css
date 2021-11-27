@@ -68,6 +68,9 @@
     section:nth-child(4) .content p {
         background-image: url(./image/water.jpg);
     }
+    section:nth-child(1) .content a {
+        background-image: url(./image/fire.jpg);
+    }
 
     section .content p {
         max-width: 800px;
@@ -87,5 +90,9 @@
         text-decoration: none;
         color: #000;
         margin-top: 20px;
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+       background-attachment: fixed;
 
     }
