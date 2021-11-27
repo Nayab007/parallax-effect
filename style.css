@@ -4,7 +4,7 @@
     font-family: 'Glamore Regular';
     font-style: normal;
     font-weight: normal;
-    src: local('Glamore Regular'), url('Glamore-lgE7w.woff') format('woff');
+    src: local('Glamore Regular'), url('/image/Glamore-lgE7w.woff') format('woff');
     }
 
     *{
@@ -40,7 +40,7 @@
         background-attachment: fixed;
     }
     section:nth-child(1) .content h2 {
-        background-image: url(fire.m4v);
+        background-image: url(./image/fire.jpg);
     }
     section:nth-child(2) .content h2 {
         background-image: url(bg1.jpg);
