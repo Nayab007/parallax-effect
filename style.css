@@ -35,3 +35,13 @@
         font-weight: 900;
         line-height: 1em;
     }
+
+    section .content p {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 0 20px;
+    }
+
+    section .content a {
+        display: inline-block;
+    }
