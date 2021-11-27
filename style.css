@@ -56,6 +56,10 @@
         background-image: url(./image/water.jpg);
     }
 
+    section:nth-child(1) .content p {
+        background-image: url(./image/fire.jpg);
+    }
+
     section .content p {
         max-width: 800px;
         margin: 0 auto;
