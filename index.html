@@ -10,7 +10,7 @@
     <section>
         <div class="content">
             <video autoplay muted loop>
-                <source src="image/fire.m4v type=video/mp4">
+                <source src="image/fire.m4v" type="video/mp4">
             </video>
             <h2>Bond</h2>
            
@@ -40,5 +40,19 @@
             <a href="#">Read More</a>
         </div>
     </section>
+    <script>
+        var video = document.getElementById("myVideo");
+        var btn = document.getElementById("myBtn");
+        
+        function myFunction() {
+          if (video.paused) {
+            video.play();
+            btn.innerHTML = "Pause";
+          } else {
+            video.pause();
+            btn.innerHTML = "Play";
+          }
+        }
+        </script>
 </body>
 </html>
