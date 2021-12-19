@@ -44,7 +44,7 @@
     }
     section:nth-child(1) .content h2 
     {
-        background-image: url(./image/fire.jpg);
+       /* background-image: url(./image/fire.jpg);*/
     }
     section:nth-child(2) .content h2 {
         background-image: url(./image/ice.png);
