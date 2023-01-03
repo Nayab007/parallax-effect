@@ -1,2 +1,1 @@
-# parallax-effect.. desgin                                                                                                   
-   
+# parallax-effect.. desgin 
