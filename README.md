@@ -1,2 +1,2 @@
-# parallax-effect.. desig n                                                                                                                
+# parallax-effect.. design                                                                                                                
 
